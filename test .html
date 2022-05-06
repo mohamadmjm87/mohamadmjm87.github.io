@@ -1,0 +1,320 @@
+# mohamadmjm87.github.io
+<html>
+<head lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joker</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        [class*="col-"] {
+          float: left;
+          padding: 15px;
+        }
+        
+        html {
+          font-family: "Lucida Sans", sans-serif;
+        }
+        
+        .header {
+          background-color: #9933cc;
+          color: #ffffff;
+          padding: 15px;
+        }
+        
+        .menu ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        .menu li {
+          padding: 8px;
+          margin-bottom: 7px;
+          background-color: #33b5e5;
+          color: #ffffff;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        
+        .menu li:hover {
+          background-color: #0099cc;
+        }
+        
+        .aside {
+          background-color: #33b5e5;
+          padding: 15px;
+          color: #ffffff;
+          text-align: center;
+          font-size: 14px;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        
+        .footer {
+          background-color: #0099cc;
+          color: #ffffff;
+          text-align: center;
+          font-size: 12px;
+          padding: 15px;
+        }
+        
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+      h1{ background-color: #0099cc;
+          color: #ffffff;
+          text-align: center;
+          font-size: 12px;
+          padding: 15px;
+        }  
+    
+        @media only screen and (min-width: 600px) {
+          /* For tablets: */
+          .col-s-1 {width: 8.33%;}
+          .col-s-2 {width: 16.66%;}
+          .col-s-3 {width: 25%;}
+          .col-s-4 {width: 33.33%;}
+          .col-s-5 {width: 41.66%;}
+          .col-s-6 {width: 50%;}
+          .col-s-7 {width: 58.33%;}
+          .col-s-8 {width: 66.66%;}
+          .col-s-9 {width: 75%;}
+          .col-s-10 {width: 83.33%;}
+          .col-s-11 {width: 91.66%;}
+          .col-s-12 {width: 100%;}
+        }
+        @media only screen and (min-width: 768px) {
+          /* For desktop: */
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+        }
+        main {
+        padding: 20px;
+    }
+    
+    header{
+        border: 1px solid #eeeeee;
+        padding: 30px;
+    }
+    header h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    nav{
+        margin: 10px 0;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        margin-left: 10px;
+        padding: 5px 30px 5px 10px;
+        background-color: #bbbb88;
+        border-radius: 5px 0;
+        transition: cubic-bezier(0, 1.42, 0.76, 1.48) 1s all;
+    }
+    nav ul li:hover{
+        background-color: #d61919;
+        border-radius: 0 5px;
+        color: white;
+        cursor: pointer;
+        padding: 5px 10px 5px 30px;
+    }
+    nav ul li.active{
+        background-color: #2933bd;
+        border-radius: 0 5px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    #gallary  {
+       border: 2px solid #aaa;
+       border-radius: 30px;
+       padding: 30px;
+    }
+    
+    #gallary h4{
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+    
+    #gallary .category ul li {
+        display: inline-block;
+    }
+    
+    #gallary .category ul li img{
+        width: 50px;
+        height: 30px;
+    }
+    
+    
+    
+    
+    /* animation sample */
+    
+    @keyframes example {
+        0%  {
+                background-color: red;
+                padding: 200px;
+            }
+        50%  {
+                background-color: yellow;
+                padding: 100px;
+            }
+        100%  {
+                background-color: green;
+                padding:1000px;
+            }
+      }
+      
+      /* The element to apply the animation to */
+      header {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }   
+          
+            
+        </style>
+      
+     
+</head>
+
+<body>
+   <h1>سریال جوکر یا لطیفه‌گو، یک رئالیتی شو ایرانی است که در هر فصل آن هشت بازیگر، ۶ ساعت زمان دارند که در یک خانه مجهز و زیبا با تمام امکانات، هرطور که می‌توانند دیگران را بخندانند اما خودشان نخندند. شرط بردن به همین سادگی است. بخندان اما نخند! سریالی که در قسمت اولش هم حسابی شما را می‌خنداند.
+
+    فضای ضبط برنامه، خانه‌ای است که همه امکانات لازم را در اختیار شرکت‌کنندگانش می‌گذارد. از آب و غذا گرفته تا لباس و وسایلی که ممکن است لازمشان شود. دور تا دور این خانه، چهل دوربین کوچک و بزرگ کاشته شده تا کوچک‌ترین نشانه‌های لبخند و خنده را شکار کنند. از طرفی، سیامک انصاری به همراه تیم پشتیبانی (که البته ما تیم را در نمایش نمی‌بینیم)، در اتاق دیگری نشسته‌اند و تمام تصاویر دوربین‌ها را رصد می‌کنند. هر بازیکن یک اجرا به نام جوکر تایم دارد که در آن زمان می‌تواند از هر روشی برای خنداندن دیگران استفاده کند و همه موظف‌اند روبه‌روی او بنشینند و به او توجه کنند. هر شرکت‌کننده‌ای که بخندد، بار اول کارت زرد به معنای اخطار و بار دوم کارت قرمز به معنای اخراج را دریافت می‌کند و مجبور است بازی را ترک کند</h1>
+   
+    <p id="demo"></p>
+
+    <script>
+    setInterval(myTimer, 1000);
+    
+    function myTimer() {
+      const d = new Date();
+      document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+    }
+    </script>
+    
+    <!-- <button onclick="doSum(5,4)">DoSum</button> -->
+    <img  src="https://chikav.ir/wp-content/uploads/2020/03/filimo-5-chikav.jpg" alt="Trulli" width="200" height="200
+    " >
+    <p><a href="https://www.filimo.com/m/97965/%D8%AC%D9%88%DA%A9%D8%B1"> برای دانلود قانونی جوکر کلیک کنید</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-reels-fill" viewBox="0 0 16 16">
+        <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+        <path d="M9 6a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+        <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7z"/>
+      </svg></p>
+<p> <a href="https://www.instagram.com/joker_realityshow/">    صفحه رسمی جوکر کلیک کنید </a> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+  </svg>  </p>
+  
+    <main>
+
+    
+            <h1 style="color:red;">سریال جوکر</h1>
+      
+            <div class="header">
+                
+              </div>
+              
+              <div class="row">
+                <div class="col-3 col-s-3 menu">
+                  
+        <nav>
+            <style>
+
+
+            </style>
+          <button data-category="*">همه فصل ها</button>
+          <button data-category="فصل1">فصل1</button>
+          <button data-category="فصل2">فصل2</button>
+          <button data-category="فصل3">فصل3</button>
+          <button data-category="فصل4">فصل4</button>
+          <button data-category="فصل5">فصل5</button>
+          <ul>
+ <li id="link-*" class="active" onclick="showCategory('*')">همه فصل ها</li>
+<li id="link-فصل1" onclick="showCategory('فصل')">فصل1<b</li>
+<li id="link-فصل2"  onclick="showCategory('فصل2')">فصل2</li>
+<li id="link-فصل3"  onclick="showCategory('فصل3')">فصل3</li>
+<li id="link-فصل4"  onclick="showCategory('فصل4')">فصل4</li>
+<li id="link-فصل5"  onclick="showCategory('فصل5')">فصل5</li>
+
+</ul>   
+           
+</nav>
+<section id="gallary">
+    <div id="فصل1" class=" category " >
+        <h4>فصل1</h4>
+        <ul>
+            <li><img src="https://www.mizan.news/files/fa/news/1400/8/29/3345766_404.jpg" ></li>
+           
+        </ul>
+    </div>
+    <div 
+  id="فصل2"  class=" category">
+        <h4>فصل2</h4>
+        <ul>
+            <li><img src="https://static2.ilna.news/thumbnail/u2jKLxWqxYCH/zD2ly951Lbe1X4vBXmeYxnwvBKd2o-upCBoRpuXWWQ3xVYIwBtE8SJc5CgG8w1SR1HhaeHPcWe7Z4QQxwQ5aCQuC6bW65Yo2vzNA1A_oYcME-xuDHnCGIL88GkvFaMums2lp5Xzk-eHBnhR0v72AGnopnVa2mZg7XuOejRjZDSys4NdjIqNZJEQ6csj1vAj0tmHgQkNOf8E,/11111.jpg"></li>
+            
+        </ul>
+    </div>
+    <div id="فصل3" class="category">
+        <h4>فصل3 </h4>
+        <ul>
+            <li><img src="https://static.cdn.asset.filimo.com/flmt/mov_108464_25713-b.jpg"></li>
+           
+        </ul>
+    </div>
+    <div id="فصل4" class="category">
+        <h4>فصل4 </h4>
+        <ul>
+            <li><img src="https://static.cdn.asset.filimo.com/flmt/mov_109050_26381-b.jpg" alt="cars"></li>
+           
+        </ul>
+    </div>
+    <div id="فصل5" class="category">
+        <h4>فصل5 </h4>
+        <ul>
+            <li><img src="https://static.cdn.asset.filimo.com/flmt/mov_112265_31145-b.jpg" ></li>
+           
+        </ul>
+    </div>
+    <div  class="active">
+        <div class="category">
+            <div  class="category">
+                <div  class="category">
+    <div  class="category">
+    rs
+    </div>
+</section>
+<script src="./js/app.js"></script>
+</main>
+</body>
+</html>
